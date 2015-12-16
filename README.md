@@ -33,8 +33,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I had no idea how swift, xcode, or apps worked in general.  I spent a lot of my time searching for answers to questions so simple that most peopel didn't feel the need to post tutorials
-Once I got through that, I had to learn how to use protocols and get comfortable with spending a lot of time reading Apple's documentation for all the goodies in UIKit.
+I had no idea how Swift, Xcode, or apps worked in general.  I spent a lot of my time searching for answers to questions so simple that most peopel didn't feel the need to post tutorials. Once I got through that, I had to learn how to use protocols and get comfortable with spending a lot of time reading Apple's documentation for all the goodies in UIKit.
 
 ## License
 
