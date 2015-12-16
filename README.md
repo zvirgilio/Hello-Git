@@ -15,13 +15,14 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 * [ ] UI animations
-* [x] Remembering the bill amount across app restarts (if <10mins)
+* [ ] Remembering the bill amount across app restarts (if <10mins) 
 * [ ] Using locale-specific currency and currency thousands separators.
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] Nothing added yet, but more to come once finals end
+- [x] Store your previously tipped value permanently (This is a precursor to the bill amount saving)
+- [ ] Nothing else added yet, but more to come once finals end
 
 ## Video Walkthrough 
 
