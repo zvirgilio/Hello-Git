@@ -1,10 +1,10 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *tips*
 
-**Name of your app** is a tip calculator application for iOS.
+**tips** is a tip calculator application for iOS.
 
-Submitted by: **Your Name Here**
+Submitted by: **Zach Virgilio**
 
-Time spent: **X** hours spent in total
+Time spent: **~12** hours spent in total
 
 ## User Stories
 
@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![alt tag](https://raw.github.com/zvirgilio/Hello-Git/)
+![alt tag](https://raw.github.com/zvirgilio/Hello-Git/master/tipWalkthrough1.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
