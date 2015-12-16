@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF0168501C1D3F1400E9ECBB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01684F1C1D3F1400E9ECBB /* SettingsViewController.swift */; };
 		EF5CC9141C1D0C1F006C67E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CC9131C1D0C1F006C67E9 /* AppDelegate.swift */; };
 		EF5CC9161C1D0C1F006C67E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CC9151C1D0C1F006C67E9 /* ViewController.swift */; };
 		EF5CC9191C1D0C1F006C67E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5CC9171C1D0C1F006C67E9 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF01684F1C1D3F1400E9ECBB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		EF5CC9101C1D0C1F006C67E9 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5CC9131C1D0C1F006C67E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF5CC9151C1D0C1F006C67E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				EF5CC9131C1D0C1F006C67E9 /* AppDelegate.swift */,
 				EF5CC9151C1D0C1F006C67E9 /* ViewController.swift */,
+				EF01684F1C1D3F1400E9ECBB /* SettingsViewController.swift */,
 				EF5CC9171C1D0C1F006C67E9 /* Main.storyboard */,
 				EF5CC91A1C1D0C1F006C67E9 /* Assets.xcassets */,
 				EF5CC91C1C1D0C1F006C67E9 /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					EF5CC90F1C1D0C1F006C67E9 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9728CJ9UX3;
 					};
 					EF5CC9231C1D0C1F006C67E9 = {
 						CreatedOnToolsVersion = 7.2;
@@ -258,6 +262,7 @@
 			files = (
 				EF5CC9161C1D0C1F006C67E9 /* ViewController.swift in Sources */,
 				EF5CC9141C1D0C1F006C67E9 /* AppDelegate.swift in Sources */,
+				EF0168501C1D3F1400E9ECBB /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +402,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wustl.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -408,10 +417,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wustl.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -482,6 +495,7 @@
 				EF5CC93A1C1D0C1F006C67E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF5CC93B1C1D0C1F006C67E9 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +504,7 @@
 				EF5CC93D1C1D0C1F006C67E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF5CC93E1C1D0C1F006C67E9 /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +513,7 @@
 				EF5CC9401C1D0C1F006C67E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
