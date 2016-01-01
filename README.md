@@ -33,6 +33,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 ![alt tag](https://raw.github.com/zvirgilio/Hello-Git/master/tipWalkthrough2Loc.gif)
+![alt tag](https://raw.github.com/zvirgilio/Hello-Git/master/tipWalkthrough3Layout.gif)
+![alt tag](https://raw.github.com/zvirgilio/Hello-Git/master/tipWalkthrough2Loc.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
