@@ -16,19 +16,21 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins) 
-* [ ] Using locale-specific currency and currency thousands separators.
+* [x] Using locale-specific currency and currency thousands separators.
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [x] Store your previously tipped value permanently (This is a precursor to the bill amount saving)
-- [ ] Nothing else added yet, but more to come once finals end
+- [x] Store your previously tipped value permanently (This is a precursor to the bill amount saving).
+- [x] The keyboard opens and the bill amount is always the first responded, but the keyboard can be hidden by tapping elsewhere.
+- [x] Change currency based on your geographic location.  Currency format is not the cleanest, and many symbols are replaced by with their text codes ("GBP" instead of the pound symbol for instance).
+- [x] A notification that tipping may not be appropriate in this country pops up when the users opens the app in such a country, with the option to follow a link to a webpage with detailed information (Only implemented for Great Britain, but easy to expand).
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-![alt tag](https://raw.github.com/zvirgilio/Hello-Git/master/tipWalkthrough1.gif)
+![alt tag](https://raw.github.com/zvirgilio/Hello-Git/master/tipWalkthrough2Loc.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
