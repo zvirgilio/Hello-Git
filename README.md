@@ -22,7 +22,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] Store your previously tipped value permanently (This is a precursor to the bill amount saving).
-- [x] Auto layout for all devices iPhone 6 or larger (I haven't worked out how to scale down label sizes if the devices are smaller, as there is some overlap
+- [x] Auto layout for all devices iPhone 6 or larger (I haven't worked out how to scale down label sizes if the devices are smaller, as there is some overlap, see the 3rd gif walkthrough)
 - [x] The keyboard opens and the bill amount is always the first responded, but the keyboard can be hidden by tapping elsewhere.
 - [x] App tracks the users current location, to help format itself and provide helpful information
 - [x] Change currency based on your geographic location.  Currency format is not the cleanest, and many symbols are replaced by with their text codes ("GBP" instead of the pound symbol for instance).
@@ -34,7 +34,7 @@ Here's a walkthrough of implemented user stories:
 
 ![alt tag](https://raw.github.com/zvirgilio/Hello-Git/master/tipWalkthrough2Loc.gif)
 ![alt tag](https://raw.github.com/zvirgilio/Hello-Git/master/tipWalkthrough3Layout.gif)
-![alt tag](https://raw.github.com/zvirgilio/Hello-Git/master/tipWalkthrough2Loc.gif)
+![alt tag](https://raw.github.com/zvirgilio/Hello-Git/master/tipWalkthrough4Layout.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
