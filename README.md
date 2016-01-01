@@ -22,6 +22,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] Store your previously tipped value permanently (This is a precursor to the bill amount saving).
+- [x] Auto layout for all devices iPhone 6 or larger (I haven't worked out how to scale down label sizes if the devices are smaller, as there is some overlap
 - [x] The keyboard opens and the bill amount is always the first responded, but the keyboard can be hidden by tapping elsewhere.
 - [x] App tracks the users current location, to help format itself and provide helpful information
 - [x] Change currency based on your geographic location.  Currency format is not the cleanest, and many symbols are replaced by with their text codes ("GBP" instead of the pound symbol for instance).
@@ -40,6 +41,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 I had no idea how Swift, Xcode, or apps worked in general.  I spent a lot of my time searching for answers to questions so simple that most peopel didn't feel the need to post tutorials. Once I got through that, I had to learn how to use protocols and get comfortable with spending a lot of time reading Apple's documentation for all the goodies in UIKit.
 
 Implementing the map took most of the extra time.  I had plans to also edit the tip and total labels so that all currency symbols appeared using their unicode hex encodings, but ran out of time.
+
+Also, on the walkthrough, there is an instance where the warning pops up after the user navigated back from the learn more link.  This is a due to something that went on in the ios simulator, where the location was read as the united states for a single update of the map (I had the location printing to the console), thus making the app believe that user had opened that app in this country for the first time since leaving another country.  I was unable to replicate this issue on an actual since I'm stuck in the US.  However, when I changed the function so that it would provide a warning in the US, I never received the warning more than on the initial load of the session.
 ## License
 
     Copyright [yyyy] [name of copyright owner]
