@@ -23,7 +23,7 @@ class SettingsViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     var newTipRate = 0.2
     
     // Array of double tip rates
-    let tipRates = [0.10, 0.12, 0.14, 0.16, 0.18, 0.20, 0.22, 0.24, 0.26, 0.28, 0.30]
+    let tipRates = [0.10, 0.11, 0.12, 0.13, 0.14, 0.15, 0.16, 0.17, 0.18, 0.19, 0.20, 0.22, 0.24, 0.26, 0.28, 0.30]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +35,7 @@ class SettingsViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         self.tipRatePicker.dataSource = self
         
         // Input data to the Array
-        tipRatePickerData = ["10%", "12%", "14%", "16%", "18%", "20%", "22%", "24%", "26%", "28%", "30%"]
+        tipRatePickerData = ["10%","11%", "12%","13%", "14%","15%", "16%","17%", "18%","19%", "20%", "22%", "24%", "26%", "28%", "30%"]
     
     }
 
